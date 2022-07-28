@@ -1,5 +1,16 @@
-// function to ...
+
+#include <iostream>
+
 int sum_array(int array[], int n)
 {
-// your code goes here
+
+    int sumOfArray = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+    sumOfArray = sumOfArray + array[i];
+
+    }
+  
+    return sumOfArray;
 }
