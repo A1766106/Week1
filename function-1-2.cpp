@@ -13,7 +13,7 @@ double array_mean(int array[], int n)
     for (int i = 0; i < n; i++)
     {
     average = average + array[i];
-    numbers = numbers += ;
+    numbers = numbers + 1 ;
     }
     average = average/numbers ;
   
