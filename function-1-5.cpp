@@ -14,7 +14,6 @@ int count_even(int number)
     if (i%2 == 0)
     {
         evenCount = evenCount + 1;
-
     }
     }
     return evenCount;
