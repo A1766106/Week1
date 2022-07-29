@@ -1,4 +1,4 @@
-int sum_array(int array[], int n)
+int array_sum(int array[], int n)
 {
 
     int sumOfArray = 0;
