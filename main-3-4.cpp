@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 
-extern void print_pass_fail(char grade);
+extern void print_pass_fail(char);
 
 int main()
 {
