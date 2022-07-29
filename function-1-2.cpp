@@ -2,20 +2,18 @@
 
 double array_mean(int array[], int n)
 {
-	int average = 0 ;
-    int numbers = 0 ;
+	int total = 0 ;
 
     if (n < 1)
     {
-        return average;
+        return total;
     }
 
     for (int i = 0; i < n; i++)
     {
-    average = average + array[i];
-    numbers = numbers + 1 ;
+    total = total + array[i];
     }
-    average = average/numbers ;
+    double average = total / n ;
   
     return average;
 
