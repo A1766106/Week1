@@ -3,6 +3,7 @@
 
 double weighted_average(int array[], int n)
 {
+
     if (n < 1)
     {
     return 0;
@@ -15,9 +16,10 @@ double weighted_average(int array[], int n)
         {
             if (array[i] == array [a]) 
             {
-                count++;
+                count = count + 1;
             }
         }
 
-    return average; 
-}
+    }
+return average ;
+}   
