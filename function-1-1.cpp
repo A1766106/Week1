@@ -1,6 +1,3 @@
-
-#include <iostream>
-
 int sum_array(int array[], int n)
 {
 

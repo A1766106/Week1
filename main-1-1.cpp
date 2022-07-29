@@ -1,4 +1,3 @@
-
 #include <iostream>
 
 extern int sum_array(int*, int);
