@@ -2,7 +2,7 @@
 
 using namespace std; 
 
-bool descending(int array[], int n)
+bool is_descending(int array[], int n)
 {
   int counter = 0 ;
  

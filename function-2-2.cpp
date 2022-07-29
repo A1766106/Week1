@@ -1,6 +1,6 @@
 #include <iostream>
 
-int maximum(int array[], int n)
+int max_element(int array[], int n)
 {
 	int highestNumber = 0;
 

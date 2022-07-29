@@ -2,7 +2,7 @@
 
 using namespace std; 
 
-bool ascending(int array[], int n)
+bool is_ascending(int array[], int n)
 {
 
   int counter = 0 ;

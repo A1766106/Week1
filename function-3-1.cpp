@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool fanarray(int array[], int n)
+bool is_fanarray(int array[], int n)
 {
 
     if (n < 1)

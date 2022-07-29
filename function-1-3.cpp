@@ -1,6 +1,6 @@
 #include <iostream>
 
-int count(int array[], int n, int num)
+int num_count(int array[], int n, int num)
 {
 
     int number_Count = 0 ;

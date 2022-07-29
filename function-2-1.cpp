@@ -1,6 +1,6 @@
 #include <iostream>
 
-int minimum(int array[], int n)
+int min_element(int array[], int n)
 {
 	int lowestNumber = 0;
 

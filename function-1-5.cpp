@@ -1,6 +1,6 @@
 #include <iostream>
 
-int count_even(int number)
+int count_evens(int number)
 {
 	int evenCount = 0;
 
