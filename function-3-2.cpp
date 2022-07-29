@@ -1,6 +1,6 @@
 #include <iostream>
 
-double median(int array[], int n)
+double median_array(int array[], int n)
 {
 
     double median = 0 ;
