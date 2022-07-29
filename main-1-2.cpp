@@ -3,7 +3,7 @@
 
 using namespace std; 
 
-extern double average(int*,int);
+extern double array_mean(int*,int);
 
 int main(int argc,char **argv)
 {
