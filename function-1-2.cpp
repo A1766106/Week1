@@ -1,5 +1,3 @@
-#include <iostream>
-
 double array_mean(int array[], int n)
 {
 	int total = 0 ;
@@ -13,7 +11,7 @@ double array_mean(int array[], int n)
     {
     total = total + array[i];
     }
-    double average = total / n ;
+    double average = 1.0 * total / n ;
   
     return average;
 
