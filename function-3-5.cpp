@@ -4,7 +4,7 @@ double sum_even(double array[], int n)
 	double total = 0;
     if (n < 1)
     {
-        return;
+        return 0;
     }
     else
     {
