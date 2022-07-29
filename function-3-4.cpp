@@ -4,11 +4,7 @@ using namespace std;
 
 void print_pass_fail(char grade)
 {
-	if (grade != 'A' && grade != 'B' && grade != 'C' && grade != 'D' && grade != 'E')
-    {
-        std::cout << "Nothing" << std::endl ;
-        return;
-    }
+
     switch (grade)
     {
      case 'A':
@@ -29,7 +25,10 @@ void print_pass_fail(char grade)
 
      case 'E':
         std::cout << "Fail" << std::endl ;
-        break;          
+        break;  
+     default:
+        std:cout << "Nothing" << std::endl ;
+        break;    
     }
 
 return ;
