@@ -4,6 +4,7 @@
 using namespace std;
 
 extern bool ascending(int*,int);
+
 int main(int argc,char **argv)
 {
 
